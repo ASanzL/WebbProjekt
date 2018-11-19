@@ -1,0 +1,300 @@
+body a:hover {
+    color: #DFDFDF;
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #E95057;
+    margin: 0 0 5% 0;
+    padding: 20px 0 0 0;
+}
+
+nav img {
+    filter: ;
+    width: 125px;
+    display: block;
+    margin: 0 auto;
+}
+main{
+    margin-top:150px;
+}
+
+#hamburger-menu {
+    text-decoration: none;
+    color: #ffffff;
+    top: 20px;
+    font-size: 40px;
+    margin: 0;
+}
+
+#menu-items {
+    display: none;
+    margin: 20px auto 0 auto;
+    text-align: center;
+
+}
+
+#menu-items a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-top: 1px black solid;
+    width: 100%;
+    padding: 15px 0 15px 0;
+}
+
+#menu-items a:hover {
+    background-color: #FF8086;
+}
+
+
+/*-------------- GRID ------------------*/
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 25px;
+
+}
+
+.gridItem {
+    margin: 15% 7.5% 5% 7.5%;
+    text-align: left;
+    padding: 0 10px;
+    font-family: Oswald, serif;
+}
+
+.gridItem img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.gridItem h3 {
+    color: #000000;
+    font-family: Oswald, sans-serif;
+}
+
+/*
+-------------- SLIDESHOW ---------------------
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+.slideshow-container img {
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+    Slideshow container
+.slideshow-container {
+    box-shadow: 1px 2px 15px black;
+    border-radius: 10px;
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+
+ Next & previous buttons
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+ Position the "next button" to the right
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+ On hover, add a black background color with a little bit see-through
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+* Caption text *
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) *
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators *
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation *
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}*/
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+/*--------------- FOOTER ------------------*/
+footer {
+    text-align: center;
+    background-color: #9C1C22;
+    padding: 20px 0 10px 0;
+    color: #ffffff;
+}
+
+footer h6 {
+    font-size: 20px;
+}
+
+footer p {
+    font-family: Oswald, serif;
+    margin-top: 10%;
+    font-size: 16px;
+}
+
+footer a {
+    width: 0;
+}
+
+.footerGrid {
+    margin: 50px 15% 0 15%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+}
+
+.footerItem, .footerItemSocial {
+    text-align: left;
+    max-width: 300px;
+    font-family: Oswald, serif;
+}
+
+.footerItem a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footerItemSocial img {
+    max-width: 40px;
+    display: inline-block;
+}
+
+.footerItemSocial a {
+    display: inline-block;
+    width: 40px;
+}
+
+@media screen and (min-width: 1025px){
+
+    nav {
+        z-index: 1;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        padding: 20px 0 20px 0;
+        box-shadow: 1px 2px 20px black;
+    }
+
+    nav img {
+        display: block;
+        margin: 0;
+    }
+
+    #hamburger-menu {
+        display: none
+    }
+
+    #menu-items {
+        display: block;
+        margin: -55px 0 10px 0;
+        text-align: center;
+    }
+
+    #menu-items a {
+        display: inline-block;
+        width: 0;
+        margin: 0 75px 0 75px;
+        border: none;
+    }
+
+    #menu-items a:hover {
+        color: #DFDFDF;
+        text-decoration: underline;
+    }
+
+
+    /*-------------- GRID ------------------*/
+    .gridContainer {
+        margin: auto 15% auto 15%;
+        grid-template-columns: auto auto auto;
+    }
+
+
+    /*-------------- SLIDESHOW ---------------------*/
+    .slideshow-container {
+        max-width: 1200px;
+        margin: 175px auto 0 auto;
+    }
+
+
+    /*--------------- FOOTER ------------------*/
+
+    footer p {
+        font-family: Oswald, serif;
+        margin-top: 5%;
+        font-size: 14px;
+    }
+
+    .footerGrid {
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .footerItemSocial img {
+        display: inline-block;
+    }
+    .footerItemSocial a {
+        display: inline-block;
+    }
+}

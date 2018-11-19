@@ -1,0 +1,106 @@
+#vizzit-overlay table,
+#vizzit-overlay thead,
+#vizzit-overlay tbody,
+#vizzit-overlay tr,
+#vizzit-overlay th,
+#vizzit-overlay td {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-collapse: inherit;
+  border-spacing: 0;
+  border-color: inherit;
+  vertical-align: inherit;
+  text-align: left;
+  font-weight: inherit;
+  -webkit-border-horizontal-spacing: 0;
+  -webkit-border-vertical-spacing: 0; }
+#vizzit-overlay table {
+  display: table; }
+#vizzit-overlay th, #vizzit-overlay td {
+  display: table-cell; }
+
+#vizzit-sitevision-overlay {
+  width: 90px;
+  right: 84px;
+  height: 30px;
+  z-index: 1001000;
+  position: fixed;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: arial;
+  line-height: normal; }
+  #vizzit-sitevision-overlay div.vizzit-main-item {
+    color: #d3d3d3;
+    z-index: 100;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    background-color: #3f3f3f; }
+    #vizzit-sitevision-overlay div.vizzit-main-item div {
+      display: inline-block; }
+    #vizzit-sitevision-overlay div.vizzit-main-item div.main-item-image {
+      width: 11px;
+      height: 11px;
+      margin-top: 5px;
+      margin-right: 6px;
+      vertical-align: top;
+      background: url("../img/vizzit.star.png") no-repeat 0px 0px; }
+    #vizzit-sitevision-overlay div.vizzit-main-item div.main-item-text {
+      color: #d3d3d3;
+      font-size: 16px;
+      margin-top: 1px;
+      padding: 2px 0px;
+      padding-right: 3px;
+      letter-spacing: 1.5px; }
+  #vizzit-sitevision-overlay:not(:hover) div.vizzit-dropdown {
+    display: none; }
+  #vizzit-sitevision-overlay div.vizzit-dropdown {
+    width: inherit;
+    z-index: 99;
+    height: 73px;
+    position: relative;
+    background-color: #656565; }
+  #vizzit-sitevision-overlay div.vizzit-dropdown div.vizzit-dropdown-item {
+    color: #ececec;
+    padding: 5px 0;
+    cursor: pointer;
+    text-align: center; }
+    #vizzit-sitevision-overlay div.vizzit-dropdown div.vizzit-dropdown-item a {
+      font-weight: bold; }
+    #vizzit-sitevision-overlay div.vizzit-dropdown div.vizzit-dropdown-item span {
+      color: #ececec; }
+  #vizzit-sitevision-overlay div.vizzit-dropdown div.vizzit-dropdown-item:hover {
+    background-color: #3f3f3f; }
+  #vizzit-sitevision-overlay:hover, #vizzit-sitevision-overlay.hover {
+    right: 69px;
+    width: 120px; }
+  #vizzit-sitevision-overlay.pos-top {
+    top: 0px; }
+  #vizzit-sitevision-overlay.pos-top, #vizzit-sitevision-overlay.pos-top div.vizzit-dropdown, #vizzit-sitevision-overlay.pos-top:not(:hover) div.vizzit-main-item, #vizzit-sitevision-overlay.pos-top div.vizzit-dropdown div.vizzit-dropdown-item:hover:last-child {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px; }
+  #vizzit-sitevision-overlay.pos-bot {
+    bottom: -7px; }
+  #vizzit-sitevision-overlay.pos-bot, #vizzit-sitevision-overlay.pos-bot div.vizzit-dropdown, #vizzit-sitevision-overlay.pos-bot:not(:hover) div.vizzit-main-item, #vizzit-sitevision-overlay.pos-bot div.vizzit-dropdown div.vizzit-dropdown-item:hover:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px; }
+  #vizzit-sitevision-overlay.pos-top div.vizzit-dropdown {
+    top: -15px;
+    padding-top: 15px; }
+  #vizzit-sitevision-overlay.pos-bot div.vizzit-dropdown {
+    bottom: 95px;
+    padding-bottom: 15px; }
+  #vizzit-sitevision-overlay a:link,
+  #vizzit-sitevision-overlay a:visited,
+  #vizzit-sitevision-overlay a:hover,
+  #vizzit-sitevision-overlay a:active {
+    color: inherit;
+    text-decoration: none;
+    font-weight: inherit; }
+  #vizzit-sitevision-overlay .hide {
+    display: none !important; }
+  #vizzit-sitevision-overlay .hidden {
+    visibility: hidden !important; }
