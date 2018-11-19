@@ -51,10 +51,28 @@ main{
 
 /*-------------- GRID ------------------*/
 .gridContainer {
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap: 25px;
+    /* Keyword value */
+    grid-template: none;
 
+    /* grid-template-rows / grid-template-columns values */
+    grid-template: 150px 1fr / 150px 1fr;
+    grid-template: auto 1fr / auto 1fr auto;
+    grid-template: [linename] 100px / [columnname1] 30% [columnname2] 70%;
+    grid-template: fit-content(150px) / fit-content(50%);
+
+    /* grid-template-areas grid-template-rows / grid-template-column values */
+    grid-template: "a a a"
+    "b b b";
+    grid-template: "a a a" 20%
+    "b b b" auto;
+    grid-template: [header-top] "a a a"     [header-bottom]
+    [main-top] "b b b" 1fr [main-bottom]
+                            / auto 1fr auto;
+
+    /* Global values */
+    grid-template: inherit;
+    grid-template: initial;
+    grid-template: unset;
 }
 
 .gridItem {
@@ -62,18 +80,30 @@ main{
     text-align: left;
     padding: 0 10px;
     font-family: Oswald, serif;
+    width: 1100px;
 }
 
 .gridItem img {
+
+    object-fit: cover;
     width: 100%;
     border-radius: 10px;
+    height: 400px;
 }
 
 .gridItem h3 {
     color: #000000;
     font-family: Oswald, sans-serif;
 }
-
+.infoArea{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-gap: 250px;
+    margin-left: 400px;
+}
+.infoItem ul{list-style:none;padding:0;margin:0}
+.infoItem ul li{padding-left:1em}
+.infoItem ul li:before{content:"";margin-right:10px;display:inline-block;width:8px;height:8px;background-color:#e95057;border-radius:50%;margin-bottom:2px}
 /*
 -------------- SLIDESHOW ---------------------
 * {box-sizing: border-box}
