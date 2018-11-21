@@ -3,61 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Campus Mölndal</title>
 </head>
 <body>
-    <nav>
-        <a id="hamburger-menu" href="#">&#9776;</a>
-        <img src="img/campuslogo.png">
-        <div id="menu-items">
-            <a href="#">test</a>
-            <a href="#">test</a>
-            <a href="#">test</a>
-            <a href="#">test</a>
-            <a href="#">test</a>
-        </div>
-    </nav>
-    <main>
-
-        <section class="gridContainer">
-            <div class="gridItem">
-                <img src="img/banner.png">
-
+    <header>
+        <nav>
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x">
+                    Meny
+                </i>
             </div>
-        </section>
-        <section class="infoArea">
-            <article class="infoItem">
-                <h3>Text...</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque metus sapien, non scelerisque orci ultrices at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque metus sapien, non scelerisque orci ultrices at.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque metus sapien, non scelerisque orci ultrices at.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque metus sapien, non scelerisque orci ultrices at.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque metus sapien, non scelerisque orci ultrices at.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque metus sapien, non scelerisque orci ultrices at.
-
-
-
-                </p>
-
-            </article>
-            <article class="infoItem">
-
-                <p>
-                 <h2>   Kurser (YH-poäng*) som du läser:</h2>
-                <ul class=" normal"><li>Agil systemutveckling 15 p</li><li>Databasutveckling 25 p</li><li>Datalogi 20 p</li><li>Objektorienterad programmering i Java 50 p</li>
-                    <li>Systemutveckling i Java Enterprise Edition 40 p</li><li>Test och kvalitetssäkring 20</li><li>Webbutveckling 50 p</li><li>Webbutveckling inriktning ramverk 30 p</li>
-                    <li>Examensarbete 30 p</li><li>LIA 1 (lärande i arbete) 60 p</li><li>LIA 2 (lärande i arbete) 60 p<br></li></ul><p class="normal">*5 YH-poäng motsvarar 1 veckas helstudier</p></div>
-
-
-                </p>
-
-            </article>
-
-
-
-
+            <div class="logo">
+                <img src="img/campuslogo.png">
+            </div>
+            <div id="menu-items">
+                <ul>
+                    <li><a href="#">Studie och Yrkesvägledning</a></li>
+                    <li><a href="#">Utbildningar</a></li>
+                    <li><a href="#">Dina studier</a></li>
+                    <li><a href="#">Företag och organisationer</a></li>
+                    <li><a href="#">Kontakta oss</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="img/banner.png" style="width:100%">
+                    <div class="text">Caption Text</div>
+                </div>
+               <div class="mySlides fade">
+                   <div class="numbertext">2 / 3</div>
+                    <img src="img/img_snow_wide.jpg" style="width:100%">
+                    <div class="text">Caption Two</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="img/img_lights_wide.jpg" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <section class="gridContainer">
+                <article class="gridItem">
+                    <img src="img/Campus-Molndal.jpg">
+                    <h3>Text...</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque metus sapien, non scelerisque orci ultrices at.
+                    </p>
+                </article>
+                <article class="gridItem">
+                    <img src="img/Campus-Molndal.jpg">
+                    <h3>Text...</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque metus sapien, non scelerisque orci ultrices at.
+                    </p>
+                </article>
+                <article class="gridItem">
+                    <img src="img/Campus-Molndal.jpg">
+                    <h3>Text...</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque metus sapien, non scelerisque orci ultrices at.
+                    </p>
+                </article>
+                <article class="gridItem">
+                    <img src="img/Campus-Molndal.jpg">
+                    <h3>Text...</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque metus sapien, non scelerisque orci ultrices at.
+                    </p>
+                </article>
+                <article class="gridItem">
+                    <img src="img/Campus-Molndal.jpg">
+                    <h3>Text...</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque metus sapien, non scelerisque orci ultrices at.
+                    </p>
+                </article>
+            </section>
         </section>
     </main>
     <footer>
@@ -96,8 +133,3 @@
 <script src="js/javascript.js"></script>
 </body>
 </html>
-
-<div class="sv-text-portlet-content"><h2 class="subheading" id="h-KurserYHpoangsomdulaser">Kurser (YH-poäng*) som du läser:</h2>
-    <ul class=" normal"><li>Agil systemutveckling 15 p</li><li>Databasutveckling 25 p</li><li>Datalogi 20 p</li><li>Objektorienterad programmering i Java 50 p</li>
-        <li>Systemutveckling i Java Enterprise Edition 40 p</li><li>Test och kvalitetssäkring 20</li><li>Webbutveckling 50 p</li><li>Webbutveckling inriktning ramverk 30 p</li>
-        <li>Examensarbete 30 p</li><li>LIA 1 (lärande i arbete) 60 p</li><li>LIA 2 (lärande i arbete) 60 p<br></li></ul><p class="normal">*5 YH-poäng motsvarar 1 veckas helstudier</p></div>
