@@ -1,0 +1,27 @@
+xhr = new XMLHttpRequest();
+
+xhr.onload = function () {
+    if(xhr.status === 200){
+        var responseObject = JSON.parse(xhr.responseText);
+        var content = '';
+
+        for(var i = 0; i < responseObject.utbildningar.length; i++) {
+            content += '<a href="allYH.html">\n' +
+                '<figure id="figure' + i + '"></figure>' +
+                '<aside>' +
+                '<h1>' + responseObject.utbildningar[i].title + '</h1>' +
+                '<p>' + responseObject.utbildningar[i].content + '</p>' +
+                '</aside>' +
+                ' </a>';
+        }
+        document.getElementById('educations').innerHTML = content;
+
+        for(var i = 0; i < responseObject.utbildningar.length; i++) {
+            document.getElementById('figure' + i).style.backgroundImage = "url('../img/" + responseObject.utbildningar[i].img + "')";
+        }
+
+    }
+}
+
+xhr.open('GET', 'data/utbildningar.json', true);
+xhr.send(null);

@@ -1,0 +1,44 @@
+{
+  "utbildningar":[
+    {
+      "title":"Yrkeshögskola",
+      "content":"Eftergymnasiala och kvalificerade yrkesutbildningar utformade efter arbetsmarknadens behov.",
+      "img": "programming.jpg"
+    },
+    {
+      "title":"Företagsutbildningar",
+      "content":"Skräddarsydda utbildningar för organisationer och företag.",
+      "img": "foretagsutbildningar.jpg"
+    },
+    {
+      "title":"Grundläggande vuxenutbildning",
+      "content":"Kurser motsvarande grundskolenivå.",
+      "img": "grundlaggandevuxenutbildning.jpg"
+    },
+    {
+      "title":"Gymnasial vuxenutbildningar",
+      "content":"Kurser eller hel utbildning på gymnasial nivå.",
+      "img": "gymnasialvuxenutbildning.jpg"
+    },
+    {
+      "title":"Gymnasial yrkesutbildning",
+      "content":"Utbildning mot arbete inom ett särskilt område.",
+      "img": "yrkesutbildning.jpg"
+    },
+    {
+      "title":"Särskild utbildning för vuxna",
+      "content":"För dig med kognitiv funktionsnedsättning eller förvärvad hjärnskada.",
+      "img": "sarutbildningar.jpg"
+    },
+    {
+      "title":"SFI - Svenska för invandrare",
+      "content":"Grundläggande utbildning för invandrare i svenska.",
+      "img": "sfi.jpg"
+    },
+    {
+      "title":"Distanutbildning",
+      "content":"Gymnasiala kurser på distans.",
+      "img": "distansutbildning.jpg"
+    }
+  ]
+}
