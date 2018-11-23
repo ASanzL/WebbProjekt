@@ -6,7 +6,7 @@ xhr.onload = function () {
         var content = '';
 
         for(var i = 0; i < responseObject.utbildningar.length; i++) {
-            content += '<a href="allYH.html">\n' +
+            content += '<a href="\\' + responseObject.utbildningar[i].link + '">' +
                 '<figure id="figure' + i + '"></figure>' +
                 '<aside>' +
                 '<h1>' + responseObject.utbildningar[i].title + '</h1>' +

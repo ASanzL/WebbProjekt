@@ -3,42 +3,50 @@
     {
       "title":"Yrkeshögskola",
       "content":"Eftergymnasiala och kvalificerade yrkesutbildningar utformade efter arbetsmarknadens behov.",
-      "img": "programming.jpg"
+      "img": "programming.jpg",
+      "link": "allYH.html"
     },
     {
       "title":"Företagsutbildningar",
       "content":"Skräddarsydda utbildningar för organisationer och företag.",
-      "img": "foretagsutbildningar.jpg"
+      "img": "foretagsutbildningar.jpg",
+      "link": "#"
     },
     {
       "title":"Grundläggande vuxenutbildning",
       "content":"Kurser motsvarande grundskolenivå.",
-      "img": "grundlaggandevuxenutbildning.jpg"
+      "img": "grundlaggandevuxenutbildning.jpg",
+      "link": "#"
     },
     {
       "title":"Gymnasial vuxenutbildningar",
       "content":"Kurser eller hel utbildning på gymnasial nivå.",
-      "img": "gymnasialvuxenutbildning.jpg"
+      "img": "gymnasialvuxenutbildning.jpg",
+      "link": "#"
     },
     {
       "title":"Gymnasial yrkesutbildning",
       "content":"Utbildning mot arbete inom ett särskilt område.",
-      "img": "yrkesutbildning.jpg"
+      "img": "yrkesutbildning.jpg",
+      "link": "#"
     },
     {
       "title":"Särskild utbildning för vuxna",
       "content":"För dig med kognitiv funktionsnedsättning eller förvärvad hjärnskada.",
-      "img": "sarutbildningar.jpg"
+      "img": "sarutbildningar.jpg",
+      "link": "#"
     },
     {
       "title":"SFI - Svenska för invandrare",
       "content":"Grundläggande utbildning för invandrare i svenska.",
-      "img": "sfi.jpg"
+      "img": "sfi.jpg",
+      "link": "#"
     },
     {
       "title":"Distanutbildning",
       "content":"Gymnasiala kurser på distans.",
-      "img": "distansutbildning.jpg"
+      "img": "distansutbildning.jpg",
+      "link": "#"
     }
   ]
 }

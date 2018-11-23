@@ -1,0 +1,34 @@
+{
+  "YH":[
+    {
+      "title":"IT-projektledare",
+      "content":"Tycker du att utvecklingsprojekt inom IT verkar spännande? Efter yrkeshögskoleutbildningen IT-projektledare har du möjlighet att bli riktigt attraktiv på arbetsmarknaden.",
+      "img": "itprojektledare.jpg",
+      "link": "#"
+    },
+    {
+      "title":"Aktiveringspedagog inom LSS",
+      "content":"Vill du arbeta med att göra skillnad för andra?",
+      "img": "aktiveringspedagog.jpg",
+      "link": "#"
+    },
+    {
+      "title":"Java- och webbutvecklare",
+      "content":"Är du intresserad av IT och programmering?",
+      "img": "javawebb.jpg",
+      "link": "#"
+    },
+    {
+      "title":"Moln- och virtualiseringsspecialist",
+      "content":"Vill du arbeta med IT-säkerhet och förhindra skadliga attacker mot företag och organisationer? Tycker du att nätverks- och molntjänster är spännande?",
+      "img": "molnvirtualisering.jpg",
+      "link": "#"
+    },
+    {
+      "title":"Specialiserad studiehandledare på modersmål",
+      "content":"Vill du stötta elever som är nya i Sverige?",
+      "img": "studiehandledare.jpg",
+      "link": "#"
+    }
+  ]
+}

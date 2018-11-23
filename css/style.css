@@ -28,7 +28,6 @@ section#headerArea h1 {
 .educations-grid {
   display: grid;
   grid-gap: 20px;
-  padding: 20px;
   grid-template-columns: repeat(1, 1fr);
 }
 .educations-grid a {
@@ -78,28 +77,37 @@ section#headerArea h1 {
   background-color: #ffe7e7;
 }
 
-div.MainWithSidebar {
+div.mainWithSidebar, div.mainWithoutSidebar {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 20px;
 }
-div.MainWithSidebar h2 {
+div.mainWithSidebar h2, div.mainWithoutSidebar h2 {
   font-size: 24px;
   font-family: "Noto Serif", serif;
 }
-div.MainWithSidebar ul {
+div.mainWithSidebar ul, div.mainWithoutSidebar ul {
   font-size: 22px;
   font-family: "Roboto", sans-serif;
 }
-div.MainWithSidebar ul li {
+div.mainWithSidebar ul li, div.mainWithoutSidebar ul li {
   padding: 5px;
 }
-div.MainWithSidebar b {
+div.mainWithSidebar b, div.mainWithoutSidebar b {
   font-size: 18px;
+}
+div.mainWithSidebar section, div.mainWithoutSidebar section {
+  padding: 0px 10px;
+}
+
+div.mainWithoutSidebar {
+  padding: 10px;
+}
+
+div.mainWithSidebar {
+  padding: 10px;
 }
 
 aside.testimonial {
-  margin: 10px;
   padding: 10px;
   border: 0px solid #E95057;
   border-width: 0px 0px 0px 8px;
@@ -108,6 +116,7 @@ aside.testimonial {
   box-shadow: 2px 2px 4px #cecece;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 aside.testimonial figure {
   margin: 0px;
@@ -135,7 +144,7 @@ aside.testimonial blockquote {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  div.MainWithSidebar {
+  div.mainWithSidebar {
     grid-template-columns: 2fr 1fr;
   }
 }
