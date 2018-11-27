@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Archivo+Black|Noto+Serif|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black|Noto+Serif|Roboto");
 p {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -162,6 +163,9 @@ body {
 header {
   width: 100%;
   background-size: cover;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 
 .logo {
@@ -176,7 +180,6 @@ header {
 }
 
 nav {
-  position: fixed;
   z-index: 1;
   width: 100%;
   line-height: 60px;
