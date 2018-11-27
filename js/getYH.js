@@ -6,7 +6,7 @@ xhr.onload = function () {
         var content = '';
 
         for(var i = 0; i < responseObject.YH.length; i++) {
-            content += '<a href="\\' + responseObject.YH[i].link + '">' +
+            content += '<a href="' + responseObject.YH[i].link + '">' +
                 '<figure id="figure' + i + '"></figure>' +
                 '<aside>' +
                 '<h1>' + responseObject.YH[i].title + '</h1>' +
@@ -17,7 +17,7 @@ xhr.onload = function () {
         document.getElementById('educations').innerHTML = content;
 
         for(var i = 0; i < responseObject.YH.length; i++) {
-            document.getElementById('figure' + i).style.backgroundImage = "url('../img/" + responseObject.YH[i].img + "')";
+            document.getElementById('figure' + i).style.backgroundImage = "url('img/" + responseObject.YH[i].img + "')";
         }
 
     }
