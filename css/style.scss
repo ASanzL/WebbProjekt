@@ -306,6 +306,7 @@ footer a:hover {
   }
 
 }
+
 .snabbInfoContainer {
   border-radius: 10px;
   max-width: 1200px;
@@ -314,26 +315,32 @@ footer a:hover {
   height: 300px;
   background-image: url(bakgrundgra.png);
 }
-.container{
+
+.container {
   display: inline-block;
   width: 30%;
   vertical-align: top;
 }
-#person{
+
+#person {
   object-fit: contain;
   max-height: 300px;
 }
-#sidTitel{
+
+#sidTitel {
   font-size: 25px;
 }
-#underRubrik{
+
+#underRubrik {
   font-size: 21px;
 }
-.snabbFakta{
+
+.snabbFakta {
   content: 'center';
   display: inline-block;
 }
-#snabbFakta{
+
+#snabbFakta {
   display: inline-block;
   float: right;
   text-align: left;
@@ -341,42 +348,51 @@ footer a:hover {
 
 }
 
-#snabbFakta ul{
-  list-style:none;padding:0;margin:0}
-#snabbFakta ul li{
-  padding-left:1em}
+#snabbFakta ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#snabbFakta ul li {
+  padding-left: 1em;
+}
 #snabbFakta ul li:before{
-  content:"";
-  margin-right:10px;
-  display:inline-block;
-  width:8px;
-  height:8px;
-  background-color:#e95057;
-  border-radius:50%;
-  margin-bottom:2px;
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #e95057;
+  border-radius: 50%;
+  margin-bottom: 2px;
 
 }
 .snabbFakta ul{
-  list-style:none;padding:0;margin:0}
-.snabbFakta ul li{
-  padding-left:1em}
-.snabbFakta ul li:before{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.snabbFakta ul li {
+  padding-left: 1em;
+}
+.snabbFakta ul li:before {
   content:"";
-  margin-right:10px;
-  display:inline-block;
-  width:8px;
-  height:8px;
-  background-color:#e95057;
-  border-radius:50%;
-  margin-bottom:2px;
+  margin-right: 10px;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #e95057;
+  border-radius: 50%;
+  margin-bottom: 2px;
 
 }
 
-.listTitel{
+.listTitel {
   font-size: 25px;
   margin-left: 3.5%;
 }
-.fotNot{
+.fotNot {
   margin-left: 3.5%;
   font-size: 20px;
 }
@@ -385,20 +401,19 @@ footer a:hover {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 25px;
-
   max-width: 1200px;
-
   margin-left: auto;
   margin-right: auto;
-
-
-
-
 }
-#testwidth{
-  width:600px;
+
+#testwidth {
+  width: 600px;
 }
-#testwidth1{
-  width:600px;}
-#testwidth2{
-  width:600px;}
+
+#testwidth1 {
+  width: 600px;
+}
+
+#testwidth2 {
+  width: 600px;
+}
