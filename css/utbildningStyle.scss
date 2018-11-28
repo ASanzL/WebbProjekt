@@ -30,7 +30,7 @@ section#headerArea {
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
-.educations-grid {
+%grid-parent {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(1, 1fr);
@@ -82,6 +82,16 @@ section#headerArea {
   }
   a:hover {
     background-color: #ffe7e7;
+  }
+}
+.educations-grid {
+  @extend %grid-parent;
+}
+.grid-container-single {
+  @extend %grid-parent;
+  a {
+    grid-template-columns: 1fr;
+    margin-bottom: 10px;
   }
 }
 %main {
