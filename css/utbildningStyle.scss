@@ -118,11 +118,13 @@ section#headerArea {
 div.mainWithoutSidebar {
   @extend %main;
   padding: 10px;
+  max-width: 850px;
+  margin:0 auto;
 }
 
 div.mainWithSidebar {
   @extend %main;
-  padding: 10px;
+  padding: 10px 80px;
 }
 
 aside.testimonial {
