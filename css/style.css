@@ -84,26 +84,30 @@ section#headerArea h1 {
   margin-bottom: 10px;
 }
 
-div.mainWithSidebar, div.mainWithoutSidebar {
+div.mainWithSidebar, div.mainWithoutSidebar, div.mainWithoutSidebarFull {
   display: grid;
   grid-template-columns: 1fr;
 }
-div.mainWithSidebar h2, div.mainWithoutSidebar h2 {
+div.mainWithSidebar h2, div.mainWithoutSidebar h2, div.mainWithoutSidebarFull h2 {
   font-size: 24px;
   font-family: "Noto Serif", serif;
 }
-div.mainWithSidebar ul, div.mainWithoutSidebar ul {
+div.mainWithSidebar ul, div.mainWithoutSidebar ul, div.mainWithoutSidebarFull ul {
   font-size: 22px;
   font-family: "Roboto", sans-serif;
 }
-div.mainWithSidebar ul li, div.mainWithoutSidebar ul li {
+div.mainWithSidebar ul li, div.mainWithoutSidebar ul li, div.mainWithoutSidebarFull ul li {
   padding: 5px;
 }
-div.mainWithSidebar b, div.mainWithoutSidebar b {
+div.mainWithSidebar b, div.mainWithoutSidebar b, div.mainWithoutSidebarFull b {
   font-size: 18px;
 }
-div.mainWithSidebar section, div.mainWithoutSidebar section {
+div.mainWithSidebar section, div.mainWithoutSidebar section, div.mainWithoutSidebarFull section {
   padding: 0px 10px;
+}
+
+div.mainWithoutSidebarFull {
+  padding: 10px;
 }
 
 div.mainWithoutSidebar {
@@ -117,6 +121,7 @@ div.mainWithSidebar {
 }
 
 aside.testimonial {
+  margin-bottom: 10px;
   padding: 10px;
   border: 0px solid #E95057;
   border-width: 0px 0px 0px 8px;
@@ -129,6 +134,7 @@ aside.testimonial {
 }
 aside.testimonial figure {
   margin: 0px;
+  width: 300px;
 }
 aside.testimonial figure img {
   border: 1px solid #cecece;

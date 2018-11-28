@@ -115,6 +115,10 @@ section#headerArea {
     padding: 0px 10px;
   }
 }
+div.mainWithoutSidebarFull {
+  @extend %main;
+  padding:10px;
+}
 div.mainWithoutSidebar {
   @extend %main;
   padding: 10px;
@@ -128,6 +132,7 @@ div.mainWithSidebar {
 }
 
 aside.testimonial {
+  margin-bottom: 10px;
   padding: 10px;
   border:0px solid $primary-color;
   border-width: 0px 0px 0px 8px;
@@ -139,6 +144,7 @@ aside.testimonial {
   overflow: hidden;
   figure {
     margin:0px;
+    width:300px;
     img {
       border:1px solid #cecece;
       border-radius: 50%;
