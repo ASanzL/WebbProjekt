@@ -496,6 +496,10 @@ footer a:hover {
 #person {
   object-fit: contain;
   max-height: 300px;
+  margin-left: 12%;
+}
+#efterlangtad{
+  margin-left: 12%;
 }
 
 #sidTitel {
