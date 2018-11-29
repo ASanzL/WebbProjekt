@@ -5,7 +5,7 @@ $primary-color-dark: #9C1C22;
 $secondary-color: #3CD864;
 $secondary-color-light: #89E9A1;
 
-@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Noto+Serif|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Noto+Serif|Roboto:400,200');
 
 p {
   font-family: 'Roboto', sans-serif;
@@ -133,7 +133,6 @@ div.mainWithSidebar {
 
 aside.testimonial {
   margin-bottom: 10px;
-  padding: 10px;
   border:0px solid $primary-color;
   border-width: 0px 0px 0px 8px;
   display: flex;
@@ -143,8 +142,8 @@ aside.testimonial {
   align-items: center;
   overflow: hidden;
   figure {
-    margin:0px;
     width:300px;
+    margin: 0px 0px 0px 5px;
     img {
       border:1px solid #cecece;
       border-radius: 50%;
@@ -154,9 +153,22 @@ aside.testimonial {
     }
   }
   blockquote {
-    font-style: italic;
-    font-size: 18px;
-    margin:15px;
+    p {
+      color: #1f1f1f;
+      font-style: italic;
+      font-size: 18px;
+      margin: 5px 0px;
+    }
+    margin:5px;
+    h2 {
+      margin:2px;
+    }
+    .by {
+      font-size:15px;
+      margin-top:5px;
+      color:gray;
+      font-weight: 200;
+    }
   }
 }
 
