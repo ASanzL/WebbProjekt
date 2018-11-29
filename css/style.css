@@ -7,10 +7,8 @@ p {
 }
 
 section#headerArea {
-  background-color: #FF8086;
-  border: 0px solid #9C1C22;
-  border-width: 1px 0px 1px 0px;
-  box-shadow: 0px 0px 4px grey;
+  background-color: #ffffff;
+  margin-top: 20px;
 }
 section#headerArea h1 {
   color: #342f2f;
