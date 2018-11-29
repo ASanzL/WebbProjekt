@@ -269,8 +269,9 @@ nav ul li a:hover {
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
-  margin-top: -22px;
+  padding: 30px 12px 30px 12px;
+  margin-top: -40px;
+  background-color: #FF8086;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -287,6 +288,7 @@ nav ul li a:hover {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
+  color: #FF8086;
 }
 
 /* The dots/bullets/indicators */
