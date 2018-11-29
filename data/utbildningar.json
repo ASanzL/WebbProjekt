@@ -12,49 +12,49 @@
       "content":"Skräddarsydda utbildningar för organisationer och företag.",
       "img": "foretagsutbildningar.jpg",
       "link": "#",
-      "borderColor": ""
+      "borderColor": "#61bd4f"
     },
     {
       "title":"Grundläggande vuxenutbildning",
       "content":"Kurser motsvarande grundskolenivå.",
       "img": "grundlaggandevuxenutbildning.jpg",
       "link": "#",
-      "borderColor": "darkgreen"
+      "borderColor": "#f2d600"
     },
     {
       "title":"Gymnasial vuxenutbildningar",
       "content":"Kurser eller hel utbildning på gymnasial nivå.",
       "img": "gymnasialvuxenutbildning.jpg",
       "link": "#",
-      "borderColor": "orange"
+      "borderColor": "#ff9f1a"
     },
     {
       "title":"Gymnasial yrkesutbildning",
       "content":"Utbildning mot arbete inom ett särskilt område.",
       "img": "yrkesutbildning.jpg",
       "link": "#",
-      "borderColor": "blue"
+      "borderColor": "#c377e0"
     },
     {
       "title":"Särskild utbildning för vuxna",
       "content":"För dig med kognitiv funktionsnedsättning eller förvärvad hjärnskada.",
       "img": "sarutbildningar.jpg",
       "link": "#",
-      "borderColor": "purple"
+      "borderColor": "#0079bf"
     },
     {
       "title":"SFI - Svenska för invandrare",
       "content":"Grundläggande utbildning för invandrare i svenska.",
       "img": "sfi.jpg",
       "link": "#",
-      "borderColor": "black"
+      "borderColor": "#00c2e0"
     },
     {
       "title":"Distanutbildning",
       "content":"Gymnasiala kurser på distans.",
       "img": "distansutbildning.jpg",
       "link": "#",
-      "borderColor": "pink"
+      "borderColor": "#51e898"
     }
   ]
 }
