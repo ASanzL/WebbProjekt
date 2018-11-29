@@ -19,4 +19,22 @@ function savePost($connection){
 
     return $insId;
 }
+
+function getAllPosts($conn){
+    // Visar alla inlägg i tabellen
+    $query = "SELECT * FROM post ORDER BY postDate DESC";
+
+    $result = mysqli_query($conn,$query) or die("Query failed $query");
+
+    return $result;
+}
+
+function getAmountPosts($conn, $amount){
+    // Visar alla inlägg i tabellen
+    $query = "SELECT * FROM post ORDER BY postDate DESC LIMIT $amount";
+
+    $result = mysqli_query($conn,$query) or die("Query failed $query");
+
+    return $result;
+}
 ?>

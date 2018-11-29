@@ -5,19 +5,13 @@
 
 // Inkluderar filerna för databaskopplingen och funktioner
 require_once("Includes/conn.mysql.php");
+require_once('Includes/functions.php');
 
 $connection = dbConnect();
 
 $showAll = showAll($connection);
 
-function showAll($conn){
-    // Visar alla inlägg i tabellen
-    $query = "SELECT * FROM post ORDER BY postDate DESC";
 
-    $result = mysqli_query($conn,$query) or die("Query failed $query");
-
-    return $result;
-}
 
 ?>
 
@@ -63,13 +57,11 @@ function showAll($conn){
         // Loopar genom arrayen som innehåller alla inlägg i tabellen
         while($row = mysqli_fetch_array($showAll)){
             ?>
-
             <h3><?php echo $row['postTitle'];?></h3>
             <p><?php echo "Författare " . $row['postWriter'];?> </p>
             <p><?php echo "Postat " . $row['postDate'];?> </p>
             <p><?php echo $row['postText'];?></p>
             <img src="./img/upload/<?php echo $row['image'];?>">
-
             <?php
         }
         ?>
