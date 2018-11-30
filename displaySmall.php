@@ -6,14 +6,13 @@ $connection = dbConnect();
 $blogPosts = getAmountPosts($connection, 6);
 while($row = mysqli_fetch_array($blogPosts)){
     ?>
-    <article class="gridItem">
-        <img src="img/Campus-Molndal.jpg">
-        <h3><?php echo utf8_encode($row['postTitle']);?></h3>
-        <!-- TODO: Gör ny css klass för skribent -->
-        <p><?php echo "Författare " . utf8_encode($row['postWriter']);?></p>
-        <p><?php echo utf8_encode($row['postText']);?></p>
-        </p>
-    </article>
+    <a href="#" class="blogDisplaySmall">
+        <article class="gridItem">
+            <img src="img/upload/<?php echo $row['image']; ?>">
+            <h3><?php echo $row['postTitle'];?></h3>
+            <p><?php echo $row['postText'];?></p>
+        </article>
+    </a>
 <?php
 }
 ?>

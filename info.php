@@ -18,7 +18,7 @@ $titel = $_POST['txtTitel'];
 $text = $_POST['txtText'];
 $img = $_FILES['myFile']['name'];
 
-$query = "INSERT INTO post
+echo $query = "INSERT INTO post
 			(postWriter,postTitle,postDate, postText, image)
 			VALUES('$forfattare','$titel','$date', '$text', '$img')";
 

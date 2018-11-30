@@ -350,22 +350,45 @@ nav ul li a:hover {
 }
 
 .gridItem {
+  height: 100%;
   margin: 0 5% 0 5%;
   text-align: left;
-  padding: 0 10px;
+  padding: 10px;
+  background-color: #ff808614;
+  border: 0px solid #FF8086;
+  border-left-width: 8px;
+  border-radius: 0px 10px 10px 0px;
 }
 
 .gridItem:hover {
-  box-shadow: 1px 1px 6px black;
+  box-shadow: 1px 1px 2px #404040;
+  transition: box-shadow 0.4s;
 }
 
 .gridItem img {
   width: 100%;
+  height: auto;
   border-radius: 10px;
 }
 
 .gridItem h3 {
   color: #000000;
+  font-family: "Noto Serif", serif;
+  font-size: 20px;
+}
+
+.gridItem p {
+  line-height: 1.3em;
+  color: #1d1d1d;
+}
+
+a.blogDisplaySmall {
+  text-decoration: none;
+}
+
+a.blogDisplaySmall:hover {
+  text-decoration: underline;
+  text-decoration-color: #FF8086;
 }
 
 /*--------------- FOOTER ------------------*/
