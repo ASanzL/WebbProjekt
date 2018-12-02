@@ -11,9 +11,27 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
+
+section {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  p {
+    text-align: center;
+
+    @media screen and (min-width: 1200px) {
+      width: 60%;
+    }
+  }
+}
+
 section#headerArea {
   background-color: #ffffff;
   margin-top: 20px;
+  margin-bottom: 0px;
+
   h1 {
     color: #342f2f;
     margin:0px;
@@ -24,6 +42,7 @@ section#headerArea {
     font-family: 'Archivo Black', sans-serif;
   }
 }
+
 .grid-container {
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -87,6 +106,8 @@ section#headerArea {
 }
 .grid-container-single {
   @extend %grid-parent;
+
+  width: 100%;
   a {
     grid-template-columns: 1fr;
     margin-bottom: 10px;
@@ -126,7 +147,11 @@ div.mainWithoutSidebar {
 
 div.mainWithSidebar {
   @extend %main;
-  padding: 10px 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 aside.testimonial {
@@ -171,7 +196,7 @@ aside.testimonial {
 }
 
 /* Desktop */
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1205px) {
   p {
     font-size: 18px;
   }
@@ -181,5 +206,6 @@ aside.testimonial {
 
   div.mainWithSidebar {
     grid-template-columns: 2fr 1fr;
+
   }
 }

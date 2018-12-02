@@ -33,10 +33,10 @@ header {
   position: fixed;
   margin-top: 10px;
   float: left;
-}
 
-.logo img {
-  width: 125px;
+  img {
+    width: 125px;
+  }
 }
 
 nav {
@@ -44,34 +44,36 @@ nav {
   width: 100%;
   line-height: 60px;
   box-shadow: 1px 3px 15px black;
-}
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 
-nav ul {
-  line-height: 60px;
-  list-style: none;
-  background-color: $primary-color;
-  overflow: hidden;
-  text-align: right;
-  margin: 0;
-  padding: 0 40px 0 0;
-  transition: 1s;
-}
+  ul {
+    line-height: 60px;
+    list-style: none;
+    background-color: $primary-color;
+    overflow: hidden;
+    text-align: right;
+    margin: 0;
+    padding: 0 40px 0 0;
+    transition: 1s;
 
-nav ul li {
-  display: inline-block;
-  padding: 18px 40px;
-}
+    li {
+      display: inline-block;
+      padding: 18px 40px;
 
-nav ul li a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #ffffff;
-  font-size: 16px;
-}
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-size: 12px;
 
-nav ul li a:hover {
-  border-bottom: 1px black solid;
-  color: #000000;
+        &:hover {
+          color: #000000;
+        }
+      }
+    }
+  }
+
+
 }
 
 .menu-icon {
@@ -91,10 +93,6 @@ nav ul li a:hover {
 /*-------------- SLIDESHOW ---------------------*/
 * {box-sizing: border-box}
 .mySlides {display: none}
-.slideshow-container img {
-  vertical-align: middle;
-  border-radius: 10px;
-}
 
 /* Slideshow container */
 .slideshow-container {
@@ -102,6 +100,11 @@ nav ul li a:hover {
   max-width: 1200px;
   position: relative;
   margin: 25px auto 0 auto;
+
+  img {
+    vertical-align: middle;
+    border-radius: 10px;
+  }
 }
 
 /* Next & previous buttons */
@@ -184,34 +187,36 @@ nav ul li a:hover {
   border:0px solid $primary-color-light;
   border-left-width: 8px;
   border-radius: 0px 10px 10px 0px;
+
+  &:hover {
+    box-shadow: 1px 1px 2px #404040;
+    transition: box-shadow 0.4s;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  h3 {
+    color: #000000;
+    font-family: "Noto Serif", serif;
+  }
+
+  p {
+    line-height: 1.3em;
+    color: #1d1d1d;
+  }
 }
 
-.gridItem:hover {
-  box-shadow: 1px 1px 2px #404040;
-  transition: box-shadow 0.4s;
-}
-
-.gridItem img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.gridItem h3 {
-  color: #000000;
-  font-family: "Noto Serif", serif;
-  font-size: 20px;
-}
-.gridItem p {
-  line-height: 1.3em;
-  color: #1d1d1d;
-}
 a.blogDisplaySmall {
   text-decoration: none;
-}
-a.blogDisplaySmall:hover {
-  text-decoration: underline;
-  text-decoration-color: $primary-color-light;
+
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: $primary-color-light;
+  }
 }
 
 /*--------------- FOOTER ------------------*/
@@ -220,23 +225,25 @@ footer {
   background-color: $primary-color-dark;
   padding: 20px 0 10px 0;
   color: #ffffff;
-}
 
-footer h6 {
-  font-size: 20px;
-}
+  h6 {
+    font-size: 20px;
+  }
 
-footer p {
-  margin-top: 5%;
-  font-size: 14px;
-}
+  p {
+    margin-top: 5%;
+    font-size: 14px;
+  }
 
-footer a {
-  width: 0;
-}
+  a {
+    width: 0;
 
-footer a:hover {
-  color: $primary-color-light;
+    &:hover {
+      color: $primary-color-light;
+    }
+  }
+
+
 }
 
 .footerGrid {
@@ -244,6 +251,13 @@ footer a:hover {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 25px;
+
+  @media screen and (max-width: 700px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 .footerItem, .footerItemSocial {
@@ -259,18 +273,20 @@ footer a:hover {
   color: #ffffff;
 }
 
-.footerItemSocial img {
-  max-width: 40px;
-  display: inline-block;
-}
+.footerItemSocial {
+  img {
+    max-width: 40px;
+    display: inline-block;
+  }
 
-.footerItemSocial a {
-  display: inline-block;
-  width: 40px;
+  a {
+    display: inline-block;
+    width: 40px;
+  }
 }
 
 /* ----- Media Queries ----- */
-@media(max-width: 768px) {
+@media(max-width: 1200px) {
 
   .logo {
     top: 0;
@@ -327,6 +343,8 @@ footer a:hover {
 
 }
 
+
+
 .snabbInfoContainer {
   border-radius: 10px;
   max-width: 1200px;
@@ -362,57 +380,58 @@ footer a:hover {
   font-size: 21px;
 }
 
-.snabbFakta {
-  content: 'center';
-  display: inline-block;
-}
-
 #snabbFakta {
   display: inline-block;
   float: right;
   text-align: left;
   font-size: 15px;
 
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding-left: 1em;
+    }
+
+    li:before {
+      content: "";
+      margin-right: 10px;
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background-color: #e95057;
+      border-radius: 50%;
+      margin-bottom: 2px;
+    }
+  }
 }
 
-#snabbFakta ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-#snabbFakta ul li {
-  padding-left: 1em;
-}
-#snabbFakta ul li:before{
-  content: "";
-  margin-right: 10px;
+.snabbFakta {
+  content: 'center';
   display: inline-block;
-  width: 8px;
-  height: 8px;
-  background-color: #e95057;
-  border-radius: 50%;
-  margin-bottom: 2px;
 
-}
-.snabbFakta ul{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 
-.snabbFakta ul li {
-  padding-left: 1em;
-}
-.snabbFakta ul li:before {
-  content:"";
-  margin-right: 10px;
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  background-color: #e95057;
-  border-radius: 50%;
-  margin-bottom: 2px;
+    li {
+      padding-left: 1em;
+    }
 
+    li:before {
+      content:"";
+      margin-right: 10px;
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background-color: #e95057;
+      border-radius: 50%;
+      margin-bottom: 2px;
+    }
+  }
 }
 
 .listTitel {

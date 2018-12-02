@@ -6,9 +6,26 @@ p {
   font-size: 16px;
 }
 
+section {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+section p {
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  section p {
+    width: 60%;
+  }
+}
+
 section#headerArea {
   background-color: #ffffff;
   margin-top: 20px;
+  margin-bottom: 0px;
 }
 section#headerArea h1 {
   color: #342f2f;
@@ -77,6 +94,9 @@ section#headerArea h1 {
   background-color: #ffe7e7;
 }
 
+.grid-container-single {
+  width: 100%;
+}
 .grid-container-single a {
   grid-template-columns: 1fr;
   margin-bottom: 10px;
@@ -115,7 +135,11 @@ div.mainWithoutSidebar {
 }
 
 div.mainWithSidebar {
-  padding: 10px 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 aside.testimonial {
@@ -160,7 +184,7 @@ aside.testimonial blockquote .by {
 }
 
 /* Desktop */
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1205px) {
   p {
     font-size: 18px;
   }
@@ -198,7 +222,6 @@ header {
   margin-top: 10px;
   float: left;
 }
-
 .logo img {
   width: 125px;
 }
@@ -208,8 +231,8 @@ nav {
   width: 100%;
   line-height: 60px;
   box-shadow: 1px 3px 15px black;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
-
 nav ul {
   line-height: 60px;
   list-style: none;
@@ -220,21 +243,17 @@ nav ul {
   padding: 0 40px 0 0;
   transition: 1s;
 }
-
 nav ul li {
   display: inline-block;
   padding: 18px 40px;
 }
-
 nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 12px;
 }
-
 nav ul li a:hover {
-  border-bottom: 1px black solid;
   color: #000000;
 }
 
@@ -260,17 +279,16 @@ nav ul li a:hover {
   display: none;
 }
 
-.slideshow-container img {
-  vertical-align: middle;
-  border-radius: 10px;
-}
-
 /* Slideshow container */
 .slideshow-container {
   border-radius: 10px;
   max-width: 1200px;
   position: relative;
   margin: 25px auto 0 auto;
+}
+.slideshow-container img {
+  vertical-align: middle;
+  border-radius: 10px;
 }
 
 /* Next & previous buttons */
@@ -359,24 +377,19 @@ nav ul li a:hover {
   border-left-width: 8px;
   border-radius: 0px 10px 10px 0px;
 }
-
 .gridItem:hover {
   box-shadow: 1px 1px 2px #404040;
   transition: box-shadow 0.4s;
 }
-
 .gridItem img {
   width: 100%;
   height: auto;
   border-radius: 10px;
 }
-
 .gridItem h3 {
   color: #000000;
   font-family: "Noto Serif", serif;
-  font-size: 20px;
 }
-
 .gridItem p {
   line-height: 1.3em;
   color: #1d1d1d;
@@ -385,7 +398,6 @@ nav ul li a:hover {
 a.blogDisplaySmall {
   text-decoration: none;
 }
-
 a.blogDisplaySmall:hover {
   text-decoration: underline;
   text-decoration-color: #FF8086;
@@ -398,20 +410,16 @@ footer {
   padding: 20px 0 10px 0;
   color: #ffffff;
 }
-
 footer h6 {
   font-size: 20px;
 }
-
 footer p {
   margin-top: 5%;
   font-size: 14px;
 }
-
 footer a {
   width: 0;
 }
-
 footer a:hover {
   color: #FF8086;
 }
@@ -421,6 +429,14 @@ footer a:hover {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 25px;
+}
+@media screen and (max-width: 700px) {
+  .footerGrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 .footerItem, .footerItemSocial {
@@ -440,14 +456,13 @@ footer a:hover {
   max-width: 40px;
   display: inline-block;
 }
-
 .footerItemSocial a {
   display: inline-block;
   width: 40px;
 }
 
 /* ----- Media Queries ----- */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .logo {
     top: 0;
   }
@@ -534,28 +549,20 @@ footer a:hover {
   font-size: 21px;
 }
 
-.snabbFakta {
-  content: "center";
-  display: inline-block;
-}
-
 #snabbFakta {
   display: inline-block;
   float: right;
   text-align: left;
   font-size: 15px;
 }
-
 #snabbFakta ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 #snabbFakta ul li {
   padding-left: 1em;
 }
-
 #snabbFakta ul li:before {
   content: "";
   margin-right: 10px;
@@ -567,16 +574,18 @@ footer a:hover {
   margin-bottom: 2px;
 }
 
+.snabbFakta {
+  content: "center";
+  display: inline-block;
+}
 .snabbFakta ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 .snabbFakta ul li {
   padding-left: 1em;
 }
-
 .snabbFakta ul li:before {
   content: "";
   margin-right: 10px;
