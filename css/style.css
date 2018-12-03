@@ -397,6 +397,7 @@ nav ul li a:hover {
 
 a.blogDisplaySmall {
   text-decoration: none;
+  height: 100%;
 }
 a.blogDisplaySmall:hover {
   text-decoration: underline;
