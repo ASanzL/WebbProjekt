@@ -218,6 +218,75 @@ a.blogDisplaySmall {
     text-decoration-color: $primary-color-light;
   }
 }
+div#createPost {
+  padding:10px;
+  h1 {
+    color: #342f2f;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px #808080;
+    font-family: "Archivo Black", sans-serif;
+  }
+  fieldset {
+    border: 1px solid #cecece;
+    border-radius: 10px;
+    legend {
+      color: #424242;
+      padding: 5px;
+      font-size: 26px;
+      border:1px solid #cecece;
+      border-left-width: 4px;
+      border-left-color: $primary-color;
+      background-color: #f7f7f7;
+      border-radius: 0px 10px 10px 0px;
+      font-weight: bold;
+    }
+  }
+  form {
+    padding: 10px;
+    div.inputArea {
+      border: 0px solid $primary-color-dark;
+      border-left-width: 3px;
+      padding: 2px 15px;
+      margin: 0px 0px 25px;
+    }
+    label {
+      font-size: 22px;
+    }
+    p {
+      margin: 0px;
+    }
+
+    input, textarea {
+      font-size: 16px;
+      margin: 0px;
+      padding:5px;
+      border:1px solid #cecece;
+      border-radius: 3px;
+    }
+    input:focus, textarea:focus {
+      font-size: 18px;
+      transition: font-size 0.4s;
+    }
+    input[type=submit] {
+      background-color: $primary-color;
+      padding:10px;
+      border: 1px solid #cecece;
+      font-weight: bold;
+    }
+    input[type=submit]:hover {
+      cursor: pointer;
+    }
+    input[type=submit]:focus {
+      font-size: 16px;
+      background-color: $primary-color-light;
+      outline: none;
+      box-shadow: inset 1px 1px 4px #000000;
+    }
+  }
+}
 
 /*--------------- FOOTER ------------------*/
 footer {
