@@ -397,10 +397,80 @@ nav ul li a:hover {
 
 a.blogDisplaySmall {
   text-decoration: none;
+  height: 100%;
 }
 a.blogDisplaySmall:hover {
   text-decoration: underline;
   text-decoration-color: #FF8086;
+}
+
+div#createPost {
+  padding: 10px;
+}
+div#createPost h1 {
+  color: #342f2f;
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 1px 1px #808080;
+  font-family: "Archivo Black", sans-serif;
+}
+div#createPost fieldset {
+  border: 1px solid #cecece;
+  border-radius: 10px;
+}
+div#createPost fieldset legend {
+  color: #424242;
+  padding: 5px;
+  font-size: 26px;
+  border: 1px solid #cecece;
+  border-left-width: 4px;
+  border-left-color: #E95057;
+  background-color: #f7f7f7;
+  border-radius: 0px 10px 10px 0px;
+  font-weight: bold;
+}
+div#createPost form {
+  padding: 10px;
+}
+div#createPost form div.inputArea {
+  border: 0px solid #9C1C22;
+  border-left-width: 3px;
+  padding: 2px 15px;
+  margin: 0px 0px 25px;
+}
+div#createPost form label {
+  font-size: 22px;
+}
+div#createPost form p {
+  margin: 0px;
+}
+div#createPost form input, div#createPost form textarea {
+  font-size: 16px;
+  margin: 0px;
+  padding: 5px;
+  border: 1px solid #cecece;
+  border-radius: 3px;
+}
+div#createPost form input:focus, div#createPost form textarea:focus {
+  font-size: 18px;
+  transition: font-size 0.4s;
+}
+div#createPost form input[type=submit] {
+  background-color: #E95057;
+  padding: 10px;
+  border: 1px solid #cecece;
+  font-weight: bold;
+}
+div#createPost form input[type=submit]:hover {
+  cursor: pointer;
+}
+div#createPost form input[type=submit]:focus {
+  font-size: 16px;
+  background-color: #FF8086;
+  outline: none;
+  box-shadow: inset 1px 1px 4px #000000;
 }
 
 /*--------------- FOOTER ------------------*/
