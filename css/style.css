@@ -202,12 +202,13 @@ header {
 
 .logo {
   width: 125px;
-  position: fixed;
-  margin-top: 10px;
-  float: left;
 }
 .logo img {
   width: 125px;
+}
+
+#menu-items {
+  width: 100%;
 }
 
 nav {
@@ -216,11 +217,12 @@ nav {
   line-height: 60px;
   box-shadow: 1px 3px 15px black;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  display: flex;
+  background-color: #E95057;
 }
 nav ul {
   line-height: 60px;
   list-style: none;
-  background-color: #E95057;
   overflow: hidden;
   text-align: right;
   margin: 0;
