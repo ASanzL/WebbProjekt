@@ -10,37 +10,17 @@
     <title>Campus Mölndal</title>
 </head>
 <body>
-<header>
-    <nav>
-        <div class="menu-icon">
-            <i class="fa fa-bars fa-2x">
-                Meny
-            </i>
-        </div>
-        <div class="logo">
-            <a href="index.php"><img src="img/campuslogo.png"></a>
-        </div>
-        <div id="menu-items">
-            <ul>
-                <li><a href="#">Studie och Yrkesvägledning</a></li>
-                <li><a href="allUtbildningar.html">Utbildningar</a></li>
-                <li><a href="#">Dina studier</a></li>
-                <li><a href="foretagochorg.html">Företag och organisationer</a></li>
-                <li><a href="contact.html">Kontakta oss</a></li>
-            </ul>
-        </div>
-    </nav>
-</header>
+<?php include_once 'menu.php' ?>
 <main>
     <section id="headerArea">
         <h1>Yrkeshögskola (YH)</h1>
     </section>
     <div class="mainWithoutSidebarFull">
         <div class="educations-grid" id="educations">
+        </div>
+
+
     </div>
-
-
-            </div>
     <div class="mainWithSidebar">
         <section>
             <p>Yrkeshögskoleutbildning i Sverige är en eftergymnasial utbildningsform som kombinerar teoretiska studier med stark arbetslivsanknytning. Utbildningarna är avgiftsfria och CSN-berättigande. 9/10 har jobb efter avslutad utbildning.</p>
@@ -99,37 +79,31 @@
 
 
 </main>
-<footer>
-    <section class="footerGrid">
-        <article class="footerItem">
-            <h2>Campus Mölndal</h2>
-            <p>Vägledningsexpedition</p>
-            <p>- för dig som vill studera</p>
-            <p>031-315 10 14</p>
-            <p>vagledning.campus@molndal.se</p>
-        </article>
-        <article class="footerItem">
-            <h2>Campus Mölndal</h2>
-            <p>Skolexpedition</p>
-            <p>- för dig som är elev</p>
-            <p>031-315 31 30</p>
-            <p>skolexp.campus@molndal.se</p>
-        </article>
-        <article class="footerItem">
-            <h2>Snabblänkar</h2>
-            <a href="#">Ansökan</a>
-            <a href="contact.html">Kontakt</a>
-            <a href="#">Itslearning</a>
-            <a href="#">Synpunkter</a>
-            <a href="#">Felanmälan</a>
-        </article>
-        <article class="footerItemSocial">
-            <h2>Social media</h2>
-            <a href="https://www.facebook.com"><img src="img/facebook.png"></a>
-        </article>
+<div class="infoArea">
+    <section>
+        <figure>
+            <img src="img/work.svg">
+        </figure>
+        <div class="percent">
+            100%
+        </div>
+        <div class="text">
+            FÅR JOBB EFTER VO-EXAMEN
+        </div>
     </section>
-    <p>Copyright © Campus Mölndal</p>
-</footer>
+    <section>
+        <figure>
+            <img src="img/star.svg">
+        </figure>
+        <div class="percent">
+            100%
+        </div>
+        <div class="text">
+            BEHÖRIGA LÄRARE
+        </div>
+    </section>
+</div>
+<?php include_once 'footer.php' ?>
 <script src="js/getYH.js"></script>
 <script src="js/javascript.js"></script>
 </body>

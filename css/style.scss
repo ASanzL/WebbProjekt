@@ -30,26 +30,29 @@ header {
 
 .logo {
   width: 125px;
-  position: fixed;
-  margin-top: 10px;
-  float: left;
+  //position: fixed;
+  //margin-top: 10px;
+  //float: left;
 
   img {
     width: 125px;
   }
 }
-
+#menu-items {
+  width: 100%;
+}
 nav {
   z-index: 1;
   width: 100%;
   line-height: 60px;
   box-shadow: 1px 3px 15px black;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  display: flex;
+  background-color: $primary-color;
 
   ul {
     line-height: 60px;
     list-style: none;
-    background-color: $primary-color;
     overflow: hidden;
     text-align: right;
     margin: 0;
@@ -394,7 +397,6 @@ footer {
     background-color: $primary-color-light;
     color: #ffffff;
   }
-
   .menu-icon {
     display: block;
   }
@@ -542,4 +544,55 @@ footer {
 
 #testwidth2 {
   width: 600px;
+}
+@media screen and (max-width: 768px){
+  .snabbInfoContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto 50px;
+    grid-template-areas:
+            "header"
+            "navigation"
+            "main-content"
+            "footer";
+    grid-gap: 20px;
+    height: 350px;
+    border-radius: 0px;
+    margin-bottom: 0%;
+  }
+  .gridContainerYH{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto 50px;
+    grid-template-areas:
+            "header"
+            "navigation"
+            "main-content"
+            "footer";
+    grid-gap: 20px;
+    margin-top: 0%;
+    border-radius: 0px;
+    width: auto;
+  }
+
+  .snabbFakta{
+    font-size: 30px;
+  }
+  .listTitel{
+    font-size: 40px;
+  }
+  #person {
+    object-fit: contain;
+    /* max-height: 300px; */
+    margin-left: 5%;
+  }
+  .container {
+    display: inline-block;
+    width: 35%;
+    vertical-align: unset;
+  }
+  .mobilText{
+    font-size: 20px;
+    width: 270px;
+  }
 }

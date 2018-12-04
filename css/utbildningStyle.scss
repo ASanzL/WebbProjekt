@@ -175,6 +175,33 @@ aside.testimonial {
     }
   }
 }
+.infoArea {
+  background-color: $primary-color;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  section {
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    figure {
+      margin: 0px;
+      img {
+        height: 100px;
+      }
+      }
+    .percent {
+      font-size: 38px;
+      font-weight: bold;
+      font-family: "Archivo Black", sans-serif;
+      color: #ffffff;
+      text-shadow: 2px 2px 1px #000;
+    }
+    .text {
+      color: #ffffff;
+    }
+  }
+}
 
 /* Desktop */
 @media screen and (min-width: 1205px) {
