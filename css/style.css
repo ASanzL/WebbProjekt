@@ -706,6 +706,7 @@ footer a:hover {
     grid-gap: 20px;
     border-radius: 0px;
     margin-bottom: 0%;
+    height: 400px;
   }
 
   .gridContainerYH {
@@ -716,6 +717,23 @@ footer a:hover {
     grid-gap: 20px;
     margin-top: 0%;
     border-radius: 0px;
+  }
+
+  #person {
+    width: 40%;
+    margin-left: 0;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .mobilText {
+    width: 300px;
+  }
+
+  #efterlangtad {
+    margin-left: 5%;
   }
 }
 
