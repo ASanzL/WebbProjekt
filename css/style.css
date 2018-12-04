@@ -51,7 +51,7 @@ section#headerArea h1 {
   text-decoration: none;
   background-color: #fff2f2;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 2fr;
   overflow: hidden;
   box-shadow: 2px 2px 4px #cecece;
   border: 0px solid #E95057;
@@ -74,7 +74,7 @@ section#headerArea h1 {
   padding: 15px;
 }
 .grid-container-single a aside h1, .educations-grid a aside h1 {
-  font-size: 35px;
+  font-size: 25px;
   margin: 0px;
   text-align: left;
   color: #2c2b2b;
@@ -191,6 +191,10 @@ aside.testimonial blockquote .by {
 
   .educations-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .educations-grid a {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
   }
 
   div.mainWithSidebar {
