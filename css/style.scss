@@ -556,9 +556,9 @@ footer {
             "main-content"
             "footer";
     grid-gap: 20px;
+    height: 350px;
     border-radius: 0px;
     margin-bottom: 0%;
-    height:400px;
   }
   .gridContainerYH{
     display: grid;
@@ -572,19 +572,23 @@ footer {
     grid-gap: 20px;
     margin-top: 0%;
     border-radius: 0px;
-  }
-  #person{
-    width: 40%;
-    margin-left: 0;
-  }
-  p{
-    font-size: 20px;
-  }
-  .mobilText{
-    width: 300px;
-  }
-  #efterlangtad{
-    margin-left: 5%;
+    width: auto;
   }
 
+  .snabbFakta{
+    font-size: 30px;
+  }
+  .listTitel{
+    font-size: 40px;
+  }
+  #person {
+    object-fit: contain;
+    /* max-height: 300px; */
+    margin-left: 5%;
+  }
+  .container {
+    display: inline-block;
+    width: 35%;
+    vertical-align: unset;
+  }
 }
