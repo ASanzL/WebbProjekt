@@ -6,7 +6,7 @@
             </i>
         </div>
         <div class="logo">
-            <a href="/"><img src="img/campuslogo.png"></a>
+            <a href="index.php"><img src="img/campuslogo.png"></a>
         </div>
         <div id="menu-items">
             <ul>
