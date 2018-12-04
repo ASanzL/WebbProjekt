@@ -15,7 +15,7 @@
                 <li><a href="#">Dina studier</a></li>
                 <li><a href="foretagochorg.html">Företag och organisationer</a></li>
                 <li><a href="contact.html">Kontakta oss</a></li>
-                <li><a href="#">Logga in/Registrera</a></li>
+                <li><a href="login.php">Logga in / Registrera</a></li>
             </ul>
         </div>
     </nav>
