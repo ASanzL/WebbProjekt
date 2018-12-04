@@ -133,10 +133,6 @@ div.mainWithoutSidebar {
 div.mainWithSidebar {
   @extend %main;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 aside.testimonial {
