@@ -11,7 +11,7 @@
         <div id="menu-items">
             <ul>
                 <li><a href="#">Studie och Yrkesvägledning</a></li>
-                <li><a href="allUtbildningar.html">Utbildningar</a></li>
+                <li><a href="allUtbildningar.php">Utbildningar</a></li>
                 <li><a href="#">Dina studier</a></li>
                 <li><a href="foretagochorg.html">Företag och organisationer</a></li>
                 <li><a href="contact.html">Kontakta oss</a></li>
