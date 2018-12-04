@@ -163,6 +163,34 @@ aside.testimonial blockquote .by {
   font-weight: 200;
 }
 
+.infoArea {
+  background-color: #E95057;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.infoArea section {
+  text-align: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.infoArea section figure {
+  margin: 0px;
+}
+.infoArea section figure img {
+  height: 100px;
+}
+.infoArea section .percent {
+  font-size: 38px;
+  font-weight: bold;
+  font-family: "Archivo Black", sans-serif;
+  color: #ffffff;
+  text-shadow: 2px 2px 1px #000;
+}
+.infoArea section .text {
+  color: #ffffff;
+}
+
 /* Desktop */
 @media screen and (min-width: 1205px) {
   p {

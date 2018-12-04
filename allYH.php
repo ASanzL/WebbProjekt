@@ -79,6 +79,30 @@
 
 
 </main>
+<div class="infoArea">
+    <section>
+        <figure>
+            <img src="img/work.svg">
+        </figure>
+        <div class="percent">
+            100%
+        </div>
+        <div class="text">
+            FÅR JOBB EFTER VO-EXAMEN
+        </div>
+    </section>
+    <section>
+        <figure>
+            <img src="img/star.svg">
+        </figure>
+        <div class="percent">
+            100%
+        </div>
+        <div class="text">
+            BEHÖRIGA LÄRARE
+        </div>
+    </section>
+</div>
 <?php include_once 'footer.php' ?>
 <script src="js/getYH.js"></script>
 <script src="js/javascript.js"></script>
