@@ -739,6 +739,11 @@ footer a:hover {
     width: 35%;
     vertical-align: unset;
   }
+
+  .mobilText {
+    font-size: 20px;
+    width: 270px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
