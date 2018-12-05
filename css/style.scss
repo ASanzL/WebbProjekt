@@ -16,7 +16,7 @@ html, body {
 }
 
 body {
-  font-family: "Helvetica Neue",sans-serif;
+  font-family: "Roboto", sans-serif; 
   font-weight: lighter;
 }
 
@@ -449,6 +449,7 @@ footer {
 }
 
 #sidTitel {
+  font-family: "Archivo Black", sans-serif;
   font-size: 35px;
 }
 
@@ -513,6 +514,7 @@ footer {
 .listTitel {
   font-size: 25px;
   margin-left: 3.5%;
+  font-family: "Noto Serif", serif;
 }
 .fotNot {
   margin-left: 3.5%;
@@ -600,7 +602,7 @@ footer {
     vertical-align: bottom;
   }
   #sidTitel{
-    font-size: 35px;
+    font-size: 30px;
     max-width: 700px;
     margin-left: 20%;
   }
