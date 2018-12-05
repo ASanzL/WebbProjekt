@@ -751,11 +751,11 @@ footer a:hover {
   }
 
   .snabbFakta {
-    font-size: 15px;
+    font-size: 12.5px;
   }
 
   .listTitel {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   #person {
@@ -774,23 +774,23 @@ footer a:hover {
   }
 
   #sidTitel {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   #underRubrik {
-    font-size: 20px;
+    font-size: 17.5px;
     margin-left: 20%;
   }
 
   .mobilText {
-    font-size: 20px;
+    font-size: 17.5px;
     max-width: 500px;
     margin-left: 24.5%;
     max-height: 400px;
   }
 
   .mobilText2 {
-    font-size: 20px;
+    font-size: 17.5px;
     max-width: 500px;
     margin-left: 25%;
     max-height: 300px;
@@ -817,7 +817,7 @@ footer a:hover {
   }
 
   #zlamZa {
-    height: 2880px;
+    max-height: 2880px;
   }
 }
 
