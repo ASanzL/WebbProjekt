@@ -826,6 +826,10 @@ footer a:hover {
   #zlamZa {
     max-height: 2880px;
   }
+
+  .paragrafText {
+    width: 250px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
