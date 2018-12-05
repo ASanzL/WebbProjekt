@@ -26,14 +26,7 @@ $result = mysqli_query($connection,$query) or die("Query failed: $query");
 
 $insId = mysqli_insert_id($connection);
 
-
-echo "<p>Vill du skapa ett nytt inlägg? Klicka på knappen</p>";
-echo "<a href='index.php'>Tillbaka</a>";
-
-echo "<p>Vill du se alla inlägg? Klicka på knappen</p>";
-echo "<a href='display.php'>Se alla inlägg</a>";
-
-//header("Location: index.php");
+header("Location: index.php");
 
 
 ?>
