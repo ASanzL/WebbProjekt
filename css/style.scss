@@ -547,7 +547,12 @@ footer {
     }
   }
 }
-
+.sidLinks{
+  text-decoration:none;
+}
+.sidlinks:before{
+  text-decoration: underline !important;
+}
 .listTitel {
   font-size: 25px;
   margin-left: 3.5%;
