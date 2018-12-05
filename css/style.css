@@ -728,7 +728,7 @@ footer a:hover {
   text-decoration: none;
 }
 
-.sidlinks:before {
+.sidlinks:hover {
   text-decoration: underline !important;
 }
 
