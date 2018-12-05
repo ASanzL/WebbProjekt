@@ -72,7 +72,7 @@
 
 
                 <p class="paragrafText">För att söka denna utbildning behöver du uppfylla
-                    <a href="https://www.molndal.se/campus-molndal/utbildningar/yrkeshogskola/behorighetskrav-yrkeshogskola.html" style="color: violet;">
+                    <a class="sidLinks" href="https://www.molndal.se/campus-molndal/utbildningar/yrkeshogskola/behorighetskrav-yrkeshogskola.html" style="color: violet;">
                         grundläggande behörighet</a>
 
                     samt nedanstående särskilda förkunskaper.</p>
@@ -89,10 +89,10 @@
                 <p class="paragrafText">Saknar du ett betyg eller har tidigare kunskaper med dig inom området?
                     <br>*Behörighetsgivande utbildning kan erbjudas för att få behörighet i kurserna programmering 1 och webbutveckling 1.</p>
                 <p class="paragrafText">Läs mer om hur du kan få
-                    <a href="https://www.molndal.se/campus-molndal/utbildningar/yrkeshogskola/behorighetskrav-yrkeshogskola.html" style="color: violet;">
+                    <a class="sidLinks" href="https://www.molndal.se/campus-molndal/utbildningar/yrkeshogskola/behorighetskrav-yrkeshogskola.html" style="color: violet;">
                         behörighet till yrkeshögskolan</a>.
                 <h2 class="listTitel">Vill du läsa mer om kursen?</h2>
-                <a href="https://www.molndal.se/download/18.332ed3111610666c6b45625/1518085818605/infoblad_yh_java_och_webbutvecklare.pdf" style="color: violet; margin-left: 4.5%;">Klicka här.</a>
+                <a class="sidLinks" href="https://www.molndal.se/download/18.332ed3111610666c6b45625/1518085818605/infoblad_yh_java_och_webbutvecklare.pdf" style="color: violet; margin-left: 4.5%;">Klicka här.</a>
                 <p></p>
             </article>
 
