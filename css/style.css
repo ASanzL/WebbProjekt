@@ -229,7 +229,8 @@ header {
 }
 
 .logo {
-  width: 125px;
+  display: block;
+  margin: 0 auto;
 }
 .logo img {
   width: 100px;
@@ -237,6 +238,7 @@ header {
 
 #menu-items {
   width: 100%;
+  display: none;
 }
 
 nav {
@@ -245,10 +247,13 @@ nav {
   line-height: 60px;
   box-shadow: 1px 3px 15px black;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  display: flex;
+  display: grid;
+  grid-template-columns: 100px 1fr;
   background-color: #E95057;
 }
-nav ul {
+
+ul {
+  background-color: #E95057;
   height: 100%;
   line-height: 60px;
   list-style: none;
@@ -258,10 +263,10 @@ nav ul {
   padding: 0px;
   transition: 1s;
 }
-nav ul li {
+ul li {
   display: inline-block;
 }
-nav ul li a {
+ul li a {
   display: inline-block;
   height: 100%;
   text-decoration: none;
@@ -270,7 +275,7 @@ nav ul li a {
   font-size: 12px;
   padding: 18px 40px;
 }
-nav ul li a:hover {
+ul li a:hover {
   color: #000000;
   border: 0px solid white;
 }
@@ -592,6 +597,11 @@ footer a:hover {
     top: 0;
   }
 
+  nav {
+    display: grid;
+    grid-template-columns: 33% 1fr 33%;
+  }
+
   nav ul {
     max-height: 0px;
     background: #E95057;
@@ -606,22 +616,22 @@ footer a:hover {
     max-height: 34em;
   }
 
-  nav ul li {
+  ul li {
     box-sizing: border-box;
     width: 100%;
     text-align: center;
     padding: 0;
   }
 
-  nav ul li a {
+  ul li a {
     display: inline-block;
     width: 100%;
     height: 100%;
   }
 
-  nav ul li a:hover {
+  ul li a:hover {
     border: none;
-    background-color: #FF8086;
+    background-color: #E95057;
     color: #ffffff;
   }
 

@@ -29,7 +29,9 @@ header {
 }
 
 .logo {
-  width: 125px;
+  //width: 125px;
+  display: block;
+  margin: 0 auto;
   //position: fixed;
   //margin-top: 10px;
   //float: left;
@@ -40,6 +42,7 @@ header {
 }
 #menu-items {
   width: 100%;
+  display: none;
 }
 nav {
   z-index: 1;
@@ -47,41 +50,39 @@ nav {
   line-height: 60px;
   box-shadow: 1px 3px 15px black;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  display: flex;
+  display: grid;
+  grid-template-columns: 100px 1fr;
   background-color: $primary-color;
+}
+ul {
+  background-color: $primary-color;
+  height: 100%;
+  line-height: 60px;
+  list-style: none;
+  overflow: hidden;
+  text-align: right;
+  margin: 0px;
+  padding: 0px;
+  transition: 1s;
 
-  ul {
-    height: 100%;
-    line-height: 60px;
-    list-style: none;
-    overflow: hidden;
-    text-align: right;
-    margin: 0px;
-    padding: 0px;
-    transition: 1s;
-
-    li {
+  li {
+    display: inline-block;
+    a {
       display: inline-block;
-      a {
-        display: inline-block;
-        height: 100%;
-        text-decoration: none;
-        text-transform: uppercase;
-        color: #ffffff;
-        font-size: 12px;
-        padding: 18px 40px;
+      height: 100%;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #ffffff;
+      font-size: 12px;
+      padding: 18px 40px;
 
-        &:hover {
-          color: #000000;
-          border:0px solid white;
-        }
+      &:hover {
+        color: #000000;
+        border: 0px solid white;
       }
     }
   }
-
-
 }
-
 .menu-icon {
   line-height: 60px;
   font-size: small;
@@ -405,6 +406,10 @@ footer {
     top: 0;
   }
 
+  nav {
+    display: grid;
+    grid-template-columns: 33% 1fr 33%;
+  }
   nav ul {
     max-height: 0px;
     background: $primary-color;
@@ -419,22 +424,22 @@ footer {
     max-height: 34em;
   }
 
-  nav ul li {
+  ul li {
     box-sizing: border-box;
     width: 100%;
     text-align: center;
     padding: 0;
   }
 
-  nav ul li a {
+  ul li a {
     display: inline-block;
     width: 100%;
     height: 100%;
   }
 
-  nav ul li a:hover {
+  ul li a:hover {
     border: none;
-    background-color: $primary-color-light;
+    background-color: $primary-color;
     color: #ffffff;
   }
   .menu-icon {
