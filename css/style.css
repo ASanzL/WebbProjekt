@@ -249,26 +249,30 @@ nav {
   background-color: #E95057;
 }
 nav ul {
+  height: 100%;
   line-height: 60px;
   list-style: none;
   overflow: hidden;
   text-align: right;
-  margin: 0;
-  padding: 0 40px 0 0;
+  margin: 0px;
+  padding: 0px;
   transition: 1s;
 }
 nav ul li {
   display: inline-block;
-  padding: 18px 40px;
 }
 nav ul li a {
+  display: inline-block;
+  height: 100%;
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
   font-size: 12px;
+  padding: 18px 40px;
 }
 nav ul li a:hover {
   color: #000000;
+  border: 0px solid white;
 }
 
 .menu-icon {
