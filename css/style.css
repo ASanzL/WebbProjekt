@@ -778,6 +778,12 @@ footer a:hover {
 }
 
 @media screen and (max-width: 768px) {
+  .wrapper {
+    width: 310px;
+    height: 200px;
+    margin: 5% auto 40% auto;
+  }
+
   .snabbInfoContainer {
     display: grid;
     grid-template-columns: 1fr;
