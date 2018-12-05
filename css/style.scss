@@ -560,6 +560,7 @@ footer {
     height: 400px;
     border-radius: 0px;
     margin-bottom: 0%;
+    width: auto;
   }
   .gridContainerYH{
     display: grid;
@@ -577,10 +578,10 @@ footer {
   }
 
   .snabbFakta{
-    font-size: 30px;
+    font-size: 15px;
   }
   .listTitel{
-    font-size: 40px;
+    font-size: 25px;
   }
   #person {
     object-fit: contain;
@@ -596,36 +597,38 @@ footer {
     vertical-align: bottom;
   }
   #sidTitel{
-    font-size: 41px;
+    font-size: 20px;
   }
   #underRubrik{
-    font-size: 31px;
+    font-size: 20px;
     margin-left: 20%;
   }
   .mobilText{
-    font-size: 29px;
-    width: 500px;
+    font-size: 20px;
+    max-width: 500px;
     margin-left: 24.5%;
+    max-height: 400px;
   }
   .mobilText2{
-    font-size: 35px;
-    width: 500px;
+    font-size: 20px;
+    max-width: 500px;
     margin-left: 25%;
+    max-height: 300px;
   }
   .gridItem2{
     max-width: 768px;
   }
   .fotNot{
-    font-size: 35px;
+    font-size: 15px;
   }
   .paragrafText{
-    font-size: 30px;
+    font-size: 15px;
   }
   .snabbInfoContainerInner  {
     height: 400px;
   }
   #efterlangtad{
-    width: 700px;
+    max-width: 700px;
   }
   #zlamZa{
     height: 2880px;
