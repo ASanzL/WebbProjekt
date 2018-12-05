@@ -759,7 +759,9 @@ footer a:hover {
   #person {
     object-fit: contain;
     /* max-height: 300px; */
-    margin-left: 5%;
+    margin-left: 0%;
+    bottom: 0;
+    left: 0;
   }
 
   .container {
@@ -771,6 +773,22 @@ footer a:hover {
   .mobilText {
     font-size: 20px;
     width: 270px;
+  }
+
+  .gridItem2 {
+    max-width: 768px;
+  }
+
+  .fotNot {
+    font-size: 35px;
+  }
+
+  .paragrafText {
+    font-size: 30px;
+  }
+
+  .snabbInfoContainer {
+    height: 400px;
   }
 }
 
