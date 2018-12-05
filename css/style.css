@@ -216,7 +216,7 @@ html, body {
 }
 
 body {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: lighter;
 }
 
@@ -249,26 +249,30 @@ nav {
   background-color: #E95057;
 }
 nav ul {
+  height: 100%;
   line-height: 60px;
   list-style: none;
   overflow: hidden;
   text-align: right;
-  margin: 0;
-  padding: 0 40px 0 0;
+  margin: 0px;
+  padding: 0px;
   transition: 1s;
 }
 nav ul li {
   display: inline-block;
-  padding: 18px 40px;
 }
 nav ul li a {
+  display: inline-block;
+  height: 100%;
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
   font-size: 12px;
+  padding: 18px 40px;
 }
 nav ul li a:hover {
   color: #000000;
+  border: 0px solid white;
 }
 
 .menu-icon {
@@ -641,6 +645,7 @@ footer a:hover {
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1%;
   height: 300px;
   border: 3px black;
   background-image: url(../img/bakgrundsgra.png);
@@ -663,6 +668,7 @@ footer a:hover {
 }
 
 #sidTitel {
+  font-family: "Archivo Black", sans-serif;
   font-size: 35px;
 }
 
@@ -721,6 +727,7 @@ footer a:hover {
 .listTitel {
   font-size: 25px;
   margin-left: 3.5%;
+  font-family: "Noto Serif", serif;
 }
 
 .fotNot {
@@ -772,6 +779,7 @@ footer a:hover {
     height: 400px;
     border-radius: 0px;
     margin-bottom: 0%;
+    width: auto;
   }
 
   .gridContainerYH {
@@ -786,11 +794,11 @@ footer a:hover {
   }
 
   .snabbFakta {
-    font-size: 30px;
+    font-size: 12.5px;
   }
 
   .listTitel {
-    font-size: 40px;
+    font-size: 20px;
   }
 
   #person {
@@ -809,24 +817,29 @@ footer a:hover {
   }
 
   #sidTitel {
-    font-size: 41px;
-  }
-
-  #underRubrik {
-    font-size: 31px;
+    font-size: 30px;
+    max-width: 700px;
     margin-left: 20%;
   }
 
+  #underRubrik {
+    width: 180px;
+    font-size: 20px;
+    margin-left: 55%;
+  }
+
   .mobilText {
-    font-size: 29px;
-    width: 500px;
-    margin-left: 24.5%;
+    font-size: 17.5px;
+    width: 200px;
+    margin-left: 55%;
+    max-height: 400px;
   }
 
   .mobilText2 {
-    font-size: 35px;
-    width: 500px;
-    margin-left: 25%;
+    font-size: 17.5px;
+    width: 200px;
+    margin-left: 70%;
+    max-height: 300px;
   }
 
   .gridItem2 {
@@ -834,11 +847,11 @@ footer a:hover {
   }
 
   .fotNot {
-    font-size: 35px;
+    font-size: 15px;
   }
 
   .paragrafText {
-    font-size: 30px;
+    font-size: 15px;
   }
 
   .snabbInfoContainerInner {
@@ -846,7 +859,15 @@ footer a:hover {
   }
 
   #efterlangtad {
-    width: 700px;
+    max-width: 700px;
+  }
+
+  #zlamZa {
+    max-height: 2880px;
+  }
+
+  .paragrafText {
+    width: 250px;
   }
 }
 

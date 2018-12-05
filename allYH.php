@@ -85,7 +85,7 @@
             <img src="img/work.svg">
         </figure>
         <div class="percent">
-            100%
+            84%
         </div>
         <div class="text">
             FÅR JOBB EFTER VO-EXAMEN
