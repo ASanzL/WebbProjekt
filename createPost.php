@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Campus Mölndal</title>
 </head>
+<?php include_once 'menu.php' ?>
 <div id="createPost">
     <h1>Skapa nytt inlägg</h1>
 
@@ -41,3 +42,4 @@
     </form>
     </fieldset>
 </div>
+<?php include_once 'footer.php' ?>
