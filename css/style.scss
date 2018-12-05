@@ -93,6 +93,43 @@ nav {
 }
 
 
+/* ----- Login Systemet ----- */
+.wrapper {
+  width: 310px;
+  height: 200px;
+  margin: 5% auto 20% auto;
+}
+
+.form-group input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #CCC;
+}
+
+.form-group input[type=submit], input[type=reset] {
+  width: 25%;
+  padding: 4px 2px;
+  margin: 10px 0 0 0;
+  border-radius: 5px;
+  border: 1px solid $secondary-color-light;
+  background-color: $secondary-color-light;
+}
+
+.form-group input[type=submit]:hover, input[type=reset]:hover {
+  background-color: $secondary-color;
+}
+
+.help-block {
+  color: red;
+}
+
+.page-header {
+  text-align: center;
+  margin: 5% auto 5% auto;
+}
+
 /*-------------- SLIDESHOW ---------------------*/
 * {box-sizing: border-box}
 .mySlides {display: none}

@@ -27,11 +27,13 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <div class="page-header">
         <h1>Hej, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Välkommen till Campus Mölndal.</h1>
         <a href="createPost.php">Lägg upp nyheter på startsidan</a>
+
+        <p>
+            <a href="reset-password.php" class="btn btn-warning">Återställ ditt lösenord</a>
+            <a href="logout.php" class="btn btn-danger">Logga ut</a>
+        </p>
+
     </div>
-    <p>
-        <a href="reset-password.php" class="btn btn-warning">Återställ ditt lösenord</a>
-        <a href="logout.php" class="btn btn-danger">Logga ut</a>
-    </p>
 
 </main>
 <?php require_once 'footer.php'; ?>
