@@ -67,6 +67,7 @@ ul.menu-list {
 
   li {
     display: inline-block;
+    text-align: left;
     a {
       display: inline-block;
       height: 100%;
@@ -416,6 +417,12 @@ footer {
     padding-right: 0;
   }
 
+  ul.menu-list {
+    li {
+      display: block;
+      text-align: center;
+    }
+  }
   .menu-icon {
     background-color: $primary-color;
   }
@@ -450,6 +457,7 @@ footer {
   /* ----- Grid -----*/
   .gridContainer {
     grid-template-columns: auto;
+    margin: 0px;
   }
 
 
