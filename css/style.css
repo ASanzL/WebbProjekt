@@ -590,7 +590,7 @@ footer a:hover {
 }
 
 /* ----- Media Queries ----- */
-@media (max-width: 800px) {
+@media (min-width: 575px) and (max-width: 800px) {
   .logo {
     top: 0;
   }
@@ -651,6 +651,71 @@ footer a:hover {
   /* ----- FOOTER -----*/
   .footerGrid {
     grid-template-columns: auto auto;
+  }
+}
+
+
+@media  (max-width: 574px) {
+  .logo {
+    top: 0;
+  }
+
+  nav {
+    display: grid;
+    grid-template-columns: 33% 1fr 33%;
+  }
+
+  nav ul {
+    max-height: 0px;
+    background: #E95057;
+    padding-right: 0;
+  }
+
+  ul.menu-list li {
+    display: block;
+    text-align: center;
+  }
+
+  .menu-icon {
+    background-color: #E95057;
+  }
+
+  .showing {
+    max-height: 34em;
+  }
+
+  .menu-list ul li {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+
+  .menu-list ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .menu-list ul li a:hover {
+    border: none;
+    background-color: #E95057;
+    color: #ffffff;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  /* ----- Grid -----*/
+  .gridContainer {
+    grid-template-columns: auto;
+    margin: 0px;
+  }
+
+  /* ----- FOOTER -----*/
+  .footerGrid {
+    grid-template-columns: auto;
   }
 }
 .snabbInfoContainer {
