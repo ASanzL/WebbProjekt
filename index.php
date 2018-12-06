@@ -29,6 +29,7 @@
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
         </div>
+        <h1 class="news">Nyheter</h1>
         <section class="gridContainer">
             <?php include_once('displaySmall.php'); ?>
         </section>

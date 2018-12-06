@@ -420,6 +420,11 @@ ul.menu-list li a:hover {
     opacity: 1;
   }
 }
+.news {
+  text-align: center;
+  margin-top: 40px;
+}
+
 /*-------------- GRID ------------------*/
 .gridContainer {
   display: grid;
