@@ -9,7 +9,7 @@
             <a href="index.php"><img src="img/campuslogo.png"></a>
         </div>
         <div>
-            <ul>
+            <ul class="menu-list">
                 <li><a href="#">Studie och Yrkesvägledning</a></li>
                 <li><a href="allUtbildningar.php">Utbildningar</a></li>
                 <li><a href="#">Dina studier</a></li>
@@ -20,7 +20,7 @@
         </div>
     </nav>
     <div id="menu-items">
-        <ul>
+        <ul class="menu-list">
             <li><a href="#">Studie och Yrkesvägledning</a></li>
             <li><a href="allUtbildningar.php">Utbildningar</a></li>
             <li><a href="#">Dina studier</a></li>

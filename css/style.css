@@ -252,7 +252,7 @@ nav {
   background-color: #E95057;
 }
 
-ul {
+ul.menu-list {
   background-color: #E95057;
   height: 100%;
   line-height: 60px;
@@ -263,10 +263,10 @@ ul {
   padding: 0px;
   transition: 1s;
 }
-ul li {
+ul.menu-list li {
   display: inline-block;
 }
-ul li a {
+ul.menu-list li a {
   display: inline-block;
   height: 100%;
   text-decoration: none;
@@ -275,7 +275,7 @@ ul li a {
   font-size: 12px;
   padding: 18px 40px;
 }
-ul li a:hover {
+ul.menu-list li a:hover {
   color: #000000;
   border: 0px solid white;
 }
