@@ -616,20 +616,20 @@ footer a:hover {
     max-height: 34em;
   }
 
-  ul li {
+  .menu-list ul li {
     box-sizing: border-box;
     width: 100%;
     text-align: center;
     padding: 0;
   }
 
-  ul li a {
+  .menu-list ul li a {
     display: inline-block;
     width: 100%;
     height: 100%;
   }
 
-  ul li a:hover {
+  .menu-list ul li a:hover {
     border: none;
     background-color: #E95057;
     color: #ffffff;
