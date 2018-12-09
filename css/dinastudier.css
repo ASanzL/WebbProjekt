@@ -1,0 +1,25 @@
+.dinastudier{
+    display: flex;
+    background-color: darkgrey;
+    height:450px;
+}
+h3{
+    margin-top:50px;
+    color:#e95057;
+    margin-left: 10px;
+}
+h4{
+    color: white;
+    margin-left: 10px;
+}
+.bild{
+    margin-left: 220px;
+}
+.Text{
+    text-align: left;
+
+}
+h1{
+    margin-top:60px;
+    color:#e95057;
+}
