@@ -13,34 +13,14 @@
 
 </head>
 <body>
-<header>
-    <nav>
-        <div class="menu-icon">
-            <i class="fa fa-bars fa-2x">
-                Meny
-            </i>
-        </div>
-        <div class="logo">
-            <a href="index.php"><img src="img/campuslogo.png"></a>
-        </div>
-        <div id="menu-items">
-            <ul>
-                <li><a href="Studieochyrkesvägledning.html">Studie och Yrkesvägledning</a></li>
-                <li><a href="allUtbildningar.php">Utbildningar</a></li>
-                <li><a href="DinaStudier.html">Dina studier</a></li>
-                <li><a href="foretagochorg.php">Företag och organisationer</a></li>
-                <li><a href="contact.php">Kontakta oss</a></li>
-            </ul>
-        </div>
-    </nav>
-</header>
+<?php require_once 'menu.php'; ?>
 <main>
     <div class="dinastudier">
         <div class="rubrik">
-    <h3>Dina Studier</h3>
-    <h4>Intyg,betyg och slutbetyg</h4>
-    <h4>Prövning och validering</h4>
-    <h4>Studiemedel</h4>
+            <h3>Dina Studier</h3>
+            <h4>Intyg,betyg och slutbetyg</h4>
+            <h4>Prövning och validering</h4>
+            <h4>Studiemedel</h4>
         </div>
         <div class="bild"><img src="https://www.molndal.se/images/18.6548537e15a433233d13eb7/1488450571021/handochbok855x450kimsvensson.jpg"></div>
     </div>
@@ -66,49 +46,12 @@
             <br>431 37 Mölndal<br>
             <br>Tfn expedition: 031-315 10 14<br>
                 <br>vagledning.campus@molndal.se<br></div>
-
-
-
-        </li>
-        <li><a>Prövning och validering</a></li>
-
-        <li><a>Studiemedel</a></li>
-    </ul>
-</div>
-
-
+            </li>
+            <li><a>Prövning och validering</a></li>
+            <li><a>Studiemedel</a></li>
+        </ul>
+    </div>
 </main>
-<footer>
-    <section class="footerGrid">
-        <article class="footerItem">
-            <h2>Campus Mölndal</h2>
-            <p>Vägledningsexpedition</p>
-            <p>- för dig som vill studera</p>
-            <p>031-315 10 14</p>
-            <p>vagledning.campus@molndal.se</p>
-        </article>
-        <article class="footerItem">
-            <h2>Campus Mölndal</h2>
-            <p>Skolexpedition</p>
-            <p>- för dig som är elev</p>
-            <p>031-315 31 30</p>
-            <p>skolexp.campus@molndal.se</p>
-        </article>
-        <article class="footerItem">
-            <h2>Snabblänkar</h2>
-            <a href="#">Ansökan</a>
-            <a href="contact.php">Kontakt</a>
-            <a href="#">Itslearning</a>
-            <a href="#">Synpunkter</a>
-            <a href="#">Felanmälan</a>
-        </article>
-        <article class="footerItemSocial">
-            <h2>Social media</h2>
-            <a href="https://www.facebook.com"><img src="img/facebook.png"></a>
-        </article>
-    </section>
-    <p>Copyright © Campus Mölndal</p>
-</footer>
-
+<?php require_once 'footer.php'; ?>
 </body>
 </html>

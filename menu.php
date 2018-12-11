@@ -10,9 +10,9 @@
         </div>
         <div>
             <ul class="menu-list">
-                <li><a href="#">Studie och Yrkesvägledning</a></li>
+                <li><a href="studieochyrkesvagledning.php">Studie och Yrkesvägledning</a></li>
                 <li><a href="allUtbildningar.php">Utbildningar</a></li>
-                <li><a href="#">Dina studier</a></li>
+                <li><a href="dinastudier.php">Dina studier</a></li>
                 <li><a href="foretagochorg.php">Företag och organisationer</a></li>
                 <li><a href="contact.php">Kontakta oss</a></li>
                 <li><a href="login.php">Logga in / Registrera</a></li>
