@@ -21,7 +21,7 @@ h4{
     display: flex;
     flex-direction: column;
 }
-ul{
+.ul{
     float: left;
     display: flex;
     flex-direction: column;
@@ -29,17 +29,17 @@ ul{
     font-size: 24px;
 
 }
-ul .lista{
+.ul .lista{
     float: left;
     list-style: none;
     position: relative;
     margin-bottom:30px;
 }
-ul .lista:hover{
+.ul .lista:hover{
     color: red;
 
 }
-ul .lista div{
+.ul .lista div{
     display: none;
     font-family: Helvetica, serif ;
     color: #222222;
@@ -48,7 +48,7 @@ ul .lista div{
     height:90px;
     margin-bottom: 80px;
 }
-ul .lista:hover div{
+.ul .lista:hover div{
     display: block;
 
     background: #FFFFFF;
@@ -90,7 +90,7 @@ strong{
         width: 80vw;
     }
 
-    ul .lista div {
+    .ul .lista div {
         width: 300px;
         height: 150px;
         font-size: 16px;

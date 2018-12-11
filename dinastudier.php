@@ -25,7 +25,7 @@
         <div class="bild"><img src="https://www.molndal.se/images/18.6548537e15a433233d13eb7/1488450571021/handochbok855x450kimsvensson.jpg" class="img"></div>
     </div>
 <div class="Text">
-    <ul>
+    <ul class="ul">
         <li class="lista"><a>Intyg,betyg och slutbetyg</a>
             <div><h2>Vill du beställa slutbetyg eller examensbevis så gör du det via studie- och yrkesvägledningen. Du bör räkna med att det kan ta upp till fyra veckor från beställning tills du får ditt slutbetyg eller examensbevis.</h2></div>
 
