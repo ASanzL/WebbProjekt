@@ -53,5 +53,6 @@
     </div>
 </main>
 <?php require_once 'footer.php'; ?>
+<script src="js/javascript.js"></script>
 </body>
 </html>

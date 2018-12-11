@@ -421,6 +421,7 @@ ul.menu-list li a:hover {
   }
 }
 .news {
+  font-family: "Archivo Black", sans-serif;
   text-align: center;
   margin-top: 40px;
 }
