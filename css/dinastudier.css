@@ -29,17 +29,17 @@ ul{
     font-size: 24px;
 
 }
-ul li{
+ul .lista{
     float: left;
     list-style: none;
     position: relative;
     margin-bottom:30px;
 }
-ul li:hover{
+ul .lista:hover{
     color: red;
 
 }
-ul li div{
+ul .lista div{
     display: none;
     font-family: Helvetica, serif ;
     color: #222222;
@@ -48,7 +48,7 @@ ul li div{
     height:90px;
     margin-bottom: 80px;
 }
-ul li:hover div{
+ul .lista:hover div{
     display: block;
 
     background: #FFFFFF;
@@ -57,7 +57,7 @@ ul li:hover div{
 .bild{
     margin-left: 30px;
 }
-img{
+.img{
     width: 100%;
     height: 100%;
 }
@@ -81,7 +81,7 @@ strong{
         height: 100%;
     }
 
-    li {
+    .lista {
         font-size: 5vw;
     }
 
@@ -90,11 +90,11 @@ strong{
         width: 80vw;
     }
 
-    ul li div {
+    ul .lista div {
         width: 300px;
         height: 150px;
         font-size: 16px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 }
 

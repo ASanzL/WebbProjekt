@@ -22,11 +22,11 @@
             <h4>Prövning och validering</h4>
             <h4>Studiemedel</h4>
         </div>
-        <div class="bild"><img src="https://www.molndal.se/images/18.6548537e15a433233d13eb7/1488450571021/handochbok855x450kimsvensson.jpg"></div>
+        <div class="bild"><img src="https://www.molndal.se/images/18.6548537e15a433233d13eb7/1488450571021/handochbok855x450kimsvensson.jpg" class="img"></div>
     </div>
 <div class="Text">
     <ul>
-        <li><a>Intyg,betyg och slutbetyg</a>
+        <li class="lista"><a>Intyg,betyg och slutbetyg</a>
             <div><h2>Vill du beställa slutbetyg eller examensbevis så gör du det via studie- och yrkesvägledningen. Du bör räkna med att det kan ta upp till fyra veckor från beställning tills du får ditt slutbetyg eller examensbevis.</h2></div>
 
             <div><br>Efter avslutad kurs registrerar vi ditt betyg och skickar det elektroniskt till UHR (Universitets- och högskolerådet). Därifrån hämtar antagning.se betyget. Betyg som är registrerade före år 2014 måste du själv skicka in till antagning.se.<br></div>
@@ -47,8 +47,8 @@
             <br>Tfn expedition: 031-315 10 14<br>
                 <br>vagledning.campus@molndal.se<br></div>
             </li>
-            <li><a>Prövning och validering</a></li>
-            <li><a>Studiemedel</a></li>
+            <li class="lista"><a>Prövning och validering</a></li>
+            <li class="lista"><a>Studiemedel</a></li>
         </ul>
     </div>
 </main>
